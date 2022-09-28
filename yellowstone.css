@@ -44,7 +44,8 @@ h2{
 main img{
     max-width: 100%;
     color: chocolate;
-    border: 3px solid rgb(76, 35, 5)
+    border: 3px solid rgb(76, 35, 5);
+    
 }
 
 a{

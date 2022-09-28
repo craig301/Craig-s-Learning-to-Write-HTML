@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header img{
+    border-radius: 560px;
+    color: chocolate;
+    border: 20px solid rgb(76, 35, 5);
+}
+
+header h1{
+    color: chocolate;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+
+main{
+    background-color: tan;
+}
+main h2{
+    color: rgb(76, 35, 5);
+}
+footer{
+    background-color: lightblue;
+}

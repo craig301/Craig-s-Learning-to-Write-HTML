@@ -1,6 +1,10 @@
 body{
     margin: 0;
     background-color: tan;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: beige
 }
 
 header{
@@ -12,24 +16,48 @@ header{
 header img{
     border-radius: 560px;
     color: chocolate;
-    border: 20px solid rgb(76, 35, 5);
+    border: 10px solid rgb(76, 35, 5);
+}
+
+h1, h2{
+    font-family: 'Mulish', sans-serif;
 }
 
 header h1{
     color: chocolate;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 50px;
+    font-size: 50px;    
 }
 
 main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
     background-color: tan;
 }
-main h2{
+h2{
     color: rgb(76, 35, 5);
     font-size: 35px;
 }
 
+main img{
+    max-width: 100%;
+    color: chocolate;
+    border: 3px solid rgb(76, 35, 5)
+}
+
+a{
+    color: rgb(76, 35, 5);
+}
+a:hover{
+    color: chocolate;
+}
+
 footer{
     background-color: lightblue;
+    text-align: center;
+    color: beige;
+    padding: 30px;
+    
 }
